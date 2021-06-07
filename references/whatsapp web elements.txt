@@ -1,0 +1,87 @@
+->Inside <head> tag
+/*
+Following tag updates when we log out.
+*/
+
+//*[@id="favicon"]
+<link id="favicon" rel="shortcut icon" type="image/png" href="/img/favicon_94e99ab189284094867d2e1220e42e9f.png" src="/img/favicon_94e99ab189284094867d2e1220e42e9f.png">
+
+
+
+
+
+->Following tag updates when we log in into whatsapp web
+XPath - //*[@id="app"]/div
+Full XPath - /html/body/div[1]/div
+Element - <div tabindex="-1" class="_3h3LX _34ybp app-wrapper-web font-fix os-win">
+Changed element when NOT logged in - <div tabindex="-1" class="_3h3LX _1dqoA app-wrapper-web font-fix os-win">
+
+
+
+
+
+->Following tag will be present if the checkbox ("Keep me signed" box) is UNCHECKED.
+Element - <div class="_2-pPz _1a-np" style="opacity: 1;">You'll be logged out after several minutes of inactivity</div>
+XPath - /html/body/div[1]/div/div[2]/div[1]/div/div[3]/span/div
+
+
+
+
+
+->Tag for checkbox of "Keep me signed in".
+XPath - /html/body/div[1]/div/div[2]/div[1]/div/div[3]/label/input
+Element - <input type="checkbox" name="rememberMe">
+
+
+
+
+
+-"continue to chat" <a> tag:-
+Element - <a class="_36or _2y_c _2z0c _2z07" href="https://web.whatsapp.com/send?phone=number" title="Share on WhatsApp" id="action-button">Continue to Chat</a>
+XPath - //*[@id="action-button"]
+Full XPath - /html/body/div[1]/div/div[2]/div/div[1]/div[1]/div/a
+
+
+
+
+
+-"use Whatsapp Web" <a> tag:-
+Element - <a class="_36or" href="https://web.whatsapp.com/send?phone=number">use WhatsApp Web</a>
+XPath - //*[@id="fallback_block"]/div/div/a
+Full XPath - /html/body/div[1]/div/div[2]/div/div[2]/div/div/a
+
+
+
+
+
+-"Phone number shared via url is invalid" tag:-
+Element - <div class="_3SRfO">Phone number shared via url is invalid.</div>
+XPath - //*[@id="app"]/div/span[2]/div/span/div/div/div/div/div/div[1]
+Full XPath - /html/body/div[1]/div/span[2]/div/span/div/div/div/div/div/div[1]
+
+
+
+
+
+-clicking "Ok" button present in "Phone number shared via url is invalid" text box tag:-
+Element - <div class="VtaVl -TvKO">OK</div>
+XPath - //*[@id="app"]/div/span[2]/div/span/div/div/div/div/div/div[2]/div
+Full XPath - /html/body/div[1]/div/span[2]/div/span/div/div/div/div/div/div[2]/div
+
+
+
+
+
+-> "Type a message" placeholder class. There are two classes using _2_1wd. "Type a mesage" placeholder is using [1]st element found by webdriver:-
+Element - <div class="_2_1wd copyable-text selectable-text" contenteditable="true" data-tab="6" dir="ltr" spellcheck="true" style=""></div>
+XPath - //*[@id="main"]/footer/div[1]/div[2]/div/div[2]
+Full XPath - /html/body/div[1]/div/div/div[4]/div/footer/div[1]/div[2]/div/div[2]
+
+
+
+
+
+-> Send button tag. It gets active only when "Type a message" box is clicked AND some character is written in the box:-
+Element - <button class="_1E0Oz"><span data-testid="send" data-icon="send" class=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M1.101 21.757L23.8 12.028 1.101 2.3l.011 7.912 13.623 1.816-13.623 1.817-.011 7.912z"></path></svg></span></button>
+XPath - //*[@id="main"]/footer/div[1]/div[3]/button
+Full XPath - /html/body/div[1]/div/div/div[4]/div/footer/div[1]/div[3]/button

@@ -1,0 +1,10 @@
+run the following command by going to the directory where .py file is present
+
+pyinstaller --onefile WhatsAppBulkSender.py
+
+or run this from anywhere
+
+pyinstaller --onefile "C:\Users\ABHISHEK BHARTI\source\repos\WhatsAppBulkSender\WhatsAppBulkSender\WhatsAppBulkSender.py"
+
+
+EXE fill will be under : dist folder will be created where you ran the program
