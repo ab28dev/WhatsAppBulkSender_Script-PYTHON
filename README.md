@@ -1,6 +1,10 @@
-This project is sub-part (python scripts) of WhatsAppBulkSender-WPF  ( https://github.com/ab28dev/WhatsAppBulkSender-WPF )
+# WhatsAppBulkSender_Script-PYTHON
+
+This project is sub-part (python scripts) of WABS_WhatsAppBulkSender-WPF ( https://github.com/ab28dev/WABS_WhatsAppBulkSender-WPF ) project.
 
 Disclaimer:
 
-THIS PROJECT IS ONLY MEANT FOR EDUCATIONAL PURPOSE.
+THIS PROJECT IS ONLY MEANT FOR EDUCATIONAL & LEARNING PURPOSE.
 ANYONE USING THIS PROJECT FOR ANY OTHER USE WILL SOLELY BE RESPONISIBLE FOR ITS CONSEQUENSES.
+
+I AM NOT RESPONSIBLE FOR ANYTHING YOU DO WITH IT.
